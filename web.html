@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaru — John Ronie Ramiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="webstyle.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-text"><span>Jaru</span></div>
+        <div class="loader-sub">Loading portfolio</div>
+    </div>
+
+    <div class="accent-stripe"></div>
+
+    <nav>
+        <div class="nav-logo">Jaru</div>
+        <ul class="nav-links">
+            <li><a href="#info">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#community">Community</a></li>
+        </ul>
+        <div class="nav-badge">PUP · BSCS</div>
+        <div class="theme-switcher">
+            <button class="theme-box neon" onclick="setTheme('dark')"></button>
+            <button class="theme-box purple" onclick="setTheme('light')"></button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-eyebrow">Portfolio · 2026</div>
+                <h1 class="hero-name">
+                    John<br>
+                    <em>Ronie</em><br>Ramiro
+                </h1>
+            </div>
+            <div class="hero-right">
+                <p class="hero-desc">
+                    Frontend-focused CS student at PUP looking for a 200-hour OJT. I build clean interfaces, write readable code, and care about things that actually work well for people.
+                </p>
+                <div class="hero-stats">
+                    <div>
+                        <div class="stat-num">8</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">9+</div>
+                        <div class="stat-label">Languages</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">1.57</div>
+                        <div class="stat-label">GWA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-ticker">
+            <div class="ticker-track" id="ticker"></div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="section" id="info">
+        <div class="section-label">About</div>
+        <div class="info-grid">
+            <div class="info-item">
+                <span class="info-key">Full Name</span>
+                <span class="info-val">John Ronie D. Ramiro</span>
+            </div>
+            <div class="info-item">
+                <span class="info-key">Email</span>
+                <span class="info-val">jrramiro2711@gmail.com</span>
+            </div>
+            <div class="info-item">
+                <span class="info-key">Address</span>
+                <span class="info-val">Longos Kalayaan, Laguna</span>
+            </div>
+            <div class="info-item">
+                <span class="info-key">Contact</span>
+                <span class="info-val">(0963) 708-0063</span>
+            </div>
+            <div class="info-item">
+                <span class="info-key">Course</span>
+                <span class="info-val">BS Computer Science · GWA 1.57</span>
+            </div>
+            <div class="info-item">
+                <span class="info-key">University</span>
+                <span class="info-val">Polytechnic University of the Philippines</span>
+            </div>
+        </div>
+        <div class="about-objective">
+            <div class="objective-label">Career Objective</div>
+            <p class="objective-text">Third-year Computer Science student looking for a 200-hour on-the-job training placement for the summer term. I want to build real things with real teams — specifically in web development and frontend engineering. I care about writing clean, readable code and building interfaces that actually work well for people.</p>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="section-label">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-cat-num">01</div>
+                <div class="skill-cat-title">Languages</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">TypeScript</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">C#</span>
+                    <span class="skill-tag">CSS</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-cat-num">02</div>
+                <div class="skill-cat-title">Frameworks & Libraries</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">ReactJS</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Flask</span>
+                    <span class="skill-tag">TailwindCSS</span>
+                    <span class="skill-tag">Bootstrap 5</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-cat-num">03</div>
+                <div class="skill-cat-title">Databases & Tools</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Supabase</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Firebase</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Figma</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-cat-num">04</div>
+                <div class="skill-cat-title">Concepts</div>
+                <div class="skill-tags">
+                    <span class="skill-tag">OOP</span>
+                    <span class="skill-tag">Data Structures & Algorithms</span>
+                    <span class="skill-tag">UI/UX Prototyping</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="section-label">Projects</div>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">Piamontrack</div>
+                    <div class="project-period">Q1 2025</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">Mobile finance management app for dorm students — real-time expense tracking, budget management, and smart notifications.</p>
+                <div class="project-tech">
+                    <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>React Native</span><span>Figma</span>
+                </div>
+                <a class="project-link" href="https://github.com/Jettsky09/app-prototype" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">SeedSync</div>
+                    <div class="project-period">Q2 2025</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">AI-powered platform connecting farmers with buyers via agentic AI and chatbots, improving trade efficiency based on logistics and behavioral data.</p>
+                <div class="project-tech">
+                    <span>ReactJS</span><span>Node.js</span><span>Flask</span><span>TensorFlow</span><span>MongoDB</span><span>Docker</span>
+                </div>
+                <a class="project-link" href="https://github.com/FlyHighButterflies/SeedSYnc" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">MadaLTO</div>
+                    <div class="project-period">Q2 2025</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">Online portal that digitizes the driver's license application process — 24/7 access with real-time status tracking, compliant with LTO standards.</p>
+                <div class="project-tech">
+                    <span>ReactJS</span><span>TypeScript</span><span>TailwindCSS</span><span>ShadcnUI</span><span>MagicUI</span>
+                </div>
+                <a class="project-link" href="https://github.com/LTO-ADL-System/lto-adl-form" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">PUP LMS UI/UX Prototype</div>
+                    <div class="project-period">Q3 2025</div>
+                </div>
+                <div class="project-role">UI/UX Designer</div>
+                <p class="project-desc">Figma-based redesign of the PUP Learning Management System focusing on usability, accessibility, and cleaner academic workflows for faculty and students.</p>
+                <div class="project-tech">
+                    <span>Figma</span><span>UI Design</span><span>Prototyping</span><span>Auto Layout</span>
+                </div>
+                <a class="project-link" href="https://sl1nk.com/figmapuplms" target="_blank" rel="noopener">&#x2192; View Prototype</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">SQL Injection Detector</div>
+                    <div class="project-period">Q4 2025</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">Web-based security tool that analyzes input strings for SQL injection patterns using automata-based detection, returning a confidence score in real time.</p>
+                <div class="project-tech">
+                    <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                </div>
+                <a class="project-link" href="https://github.com/Automata-Final-Project/Automata-SLQ-Injection-Detector" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">Komyutnity</div>
+                    <div class="project-period">Q4 2025</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">Community-driven web platform where Filipino commuters share, browse, and verify Metro Manila transit routes — making public transportation less stressful.</p>
+                <div class="project-tech">
+                    <span>JavaScript</span><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span>
+                </div>
+                <a class="project-link" href="https://github.com/imyvj/komyutnity" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">Adaptive Kingdom Rescue</div>
+                    <div class="project-period">Q3 2026</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">Python-based educational game that adapts its difficulty based on player performance, combining problem-solving mechanics with a fantasy rescue narrative.</p>
+                <div class="project-tech">
+                    <span>Python</span>
+                </div>
+                <a class="project-link" href="https://github.com/jortog/Adaptive-Kingdom-Rescue" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <div class="project-name">ClassHub</div>
+                    <div class="project-period">Q4 2026</div>
+                </div>
+                <div class="project-role">Frontend Developer</div>
+                <p class="project-desc">PHP/MySQL classroom management app where students join a section via code and access semesters, subjects, schedules, assignments, and announcements in one place.</p>
+                <div class="project-tech">
+                    <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>CSS</span><span>Apache</span>
+                </div>
+                <a class="project-link" href="https://github.com/jortog/classhub" target="_blank" rel="noopener">&#x2192; View Repo</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" id="community">
+        <div class="section-label">Community Involvement</div>
+        <div class="community-list">
+            <div class="community-item">
+                <div class="community-info">
+                    <div class="community-org">PUP Manila Microsoft Student Community</div>
+                    <div class="community-role">Active Member</div>
+                </div>
+                <div class="community-period">Dec 2025 – Present</div>
+            </div>
+            <div class="community-item">
+                <div class="community-info">
+                    <div class="community-org">Google Developer Group – PUP Manila</div>
+                    <div class="community-role">Active Member</div>
+                </div>
+                <div class="community-period">Dec 2025 – Present</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Jaru</div>
+        <div class="footer-copy">&copy; 2026 John Ronie Ramiro &middot; All rights reserved</div>
+        <div class="footer-accent">Laguna &middot; Philippines</div>
+    </footer>
+
+    <script src="webjs.js"></script>
+</body>
+
+</html>
